@@ -1,4 +1,4 @@
-package com.persons.finder.data
+package com.persons.finder.domain.data
 
 data class Location(
     // Tip: Person's id can be used for this field

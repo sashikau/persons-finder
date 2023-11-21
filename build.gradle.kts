@@ -22,6 +22,7 @@ dependencies {
 	implementation("com.h2database:h2:2.1.212")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("org.mockito.kotlin:mockito-kotlin:2.2.7")
 }
 
 tasks.withType<KotlinCompile> {
